@@ -21,8 +21,8 @@ export const AddTask = ({
   const [showTaskDate, setShowTaskDate] = useState(false);
 
   const { selectedProject } = useSelectedProjectValue();
-  const taskTitle="";
-  
+  const taskTitle="a";
+
   const addTask = () => {
     const projectId = project || selectedProject;
     let collatedDate = '';
