@@ -21,6 +21,7 @@ export const AddTask = ({
   const [showTaskDate, setShowTaskDate] = useState(false);
 
   const { selectedProject } = useSelectedProjectValue();
+  const taskTitle="a";
 
   const addTask = () => {
     const projectId = project || selectedProject;
