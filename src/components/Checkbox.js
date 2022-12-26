@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { firebase } from '../firebase';
 
 export const Checkbox = ({ id, taskDesc }) => {
-  const label ="";
+  const label ="b";
   const archiveTask = () => {
     firebase.firestore().collection('tasks').doc(id).update({
       archived: true,
