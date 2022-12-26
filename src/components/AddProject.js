@@ -10,7 +10,7 @@ export const AddProject = ({ shouldShow = false }) => {
 
   const projectId = generatePushId();
   const { projects, setProjects } = useProjectsValue();
-
+  const projectTitle ="";
   const addProject = () =>
     projectName &&
     firebase
